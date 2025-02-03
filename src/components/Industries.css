@@ -1,0 +1,17 @@
+.industries {
+    padding: 50px 20px;
+    text-align: center;
+    border-bottom: 5px solid white;
+    border-radius: 10px;
+  }
+  
+  .industry-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .industry img {
+    height: 50px;
+    border-radius: 5px solid white;
+  }

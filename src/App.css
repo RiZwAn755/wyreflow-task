@@ -1,0 +1,138 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  width: 100%;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.hero {
+  background-image: url('hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  width: 100%;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.primary-button, .secondary-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.secondary-button {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+
+.features {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.card {
+  width: 30%;
+}
+
+.card img {
+  height: 50px;
+}
+
+
+.industries {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.industry-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.industry img {
+  height: 50px;
+}
+
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}

@@ -1,0 +1,44 @@
+.hero {
+    background-image: url('../assets/vrgirl.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 80vh; 
+    width: 96vw;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+    overflow: hidden;
+    border-bottom: 5px solid white;
+  border-radius: 10px;
+  }
+  
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-buttons {
+    margin-top: 20px;
+  }
+  
+  .primary-button, .secondary-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .primary-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .secondary-button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+  }
